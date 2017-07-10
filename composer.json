@@ -1,0 +1,27 @@
+{
+    "name": "msajko/money-formatter",
+    "type": "library",
+    "description": "Money to text converter",
+    "keywords": ["log","logging"],
+    "homepage": "https://github.com/msajko/money-formatter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "msajko",
+            "email": "msajko@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "ext-intl": ">=1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Msajko\\": "src/"
+        }
+    }
+}
